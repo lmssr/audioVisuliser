@@ -58,7 +58,7 @@ function play() {
     group.add(plane);
 
     const plane2 = new THREE.Mesh(planeGeometry, planeMaterial);
-    plane2.rotation.x = 0.5 * Math.PI;
+    plane2.rotation.x = -0.5 * Math.PI;
     plane2.position.set(0, -30, 0);
     group.add(plane2);
 
